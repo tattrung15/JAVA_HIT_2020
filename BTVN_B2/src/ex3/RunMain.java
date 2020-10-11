@@ -11,14 +11,14 @@ public class RunMain {
 
     public static int[] AddElement(int []a, Scanner scanner){
         int tempIndex = a.length + 1;
-        int[] tempArr = new int[tempIndex];
+        int[] tempArr = new int[a.length + 1];
         System.out.print("Nhập phần tử cần thêm: ");
         int pt = scanner.nextInt();
         System.out.print("Nhập vị trí cần thêm: ");
         int vt = scanner.nextInt();
         int k = 0;
         for (int i = 0; i < tempIndex; i++) {
-            if(i == vt){
+            if(i + 1 == vt){
                 tempArr[i] = pt;
             } else {
                 tempArr[i] = a[k++];
