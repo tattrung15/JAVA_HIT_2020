@@ -27,7 +27,6 @@ public class RunMain {
                 SinhVien sv1 = lopHoc.getList().get(j - 1);
                 SinhVien sv2 = lopHoc.getList().get(j);
                 if (sv1.getKhoaHoc() > sv2.getKhoaHoc()) {
-                    SinhVien svTemp = sv1;
                     lopHoc.getList().set(j - 1, sv2);
                     lopHoc.getList().set(j, sv1);
                 }

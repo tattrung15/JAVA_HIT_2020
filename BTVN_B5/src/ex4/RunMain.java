@@ -135,9 +135,7 @@ public class RunMain {
                         System.out.println("Edited student gpa");
                         break;
                 }
-
             } while (choice >= 5 || choice <= 0);
-
         } else {
             System.out.println("Id does not exist");
         }

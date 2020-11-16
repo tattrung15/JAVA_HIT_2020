@@ -9,22 +9,6 @@ public class Student {
     private String address;
     private double gpa;
 
-    public void Nhap(){
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Nhập id: ");
-        id = scanner.nextInt();
-        scanner.nextLine();
-        System.out.print("Nhập tên: ");
-        name = scanner.nextLine();
-        System.out.print("Nhập tuổi: ");
-        age = scanner.nextInt();
-        scanner.nextLine();
-        System.out.print("Nhập địa chỉ: ");
-        address = scanner.nextLine();
-        System.out.print("Nhập điểm trung bình: ");
-        gpa = scanner.nextDouble();
-    }
-
     public Student() {
     }
 
